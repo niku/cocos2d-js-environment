@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export COCOS_CONSOLE_ROOT=/home/vagrant/cocos2d-js-v3.2/tools/cocos2d-console/bin
+export COCOS_CONSOLE_ROOT=`grep "COCOS_CONSOLE_ROOT=" ~/.bashrc | sed -E "s/^.*=(.+)$/\1/g"`
 export PATH=$COCOS_CONSOLE_ROOT:$PATH
 
 case $1 in
