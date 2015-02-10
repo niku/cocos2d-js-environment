@@ -79,3 +79,13 @@ http://localhost:3939/ へとアクセスしてみましょう．cocos-2d-js の
 
 ゲームを消したくなったら，ゲームの雛形を作った場所のファイルを消すだけでよいです．
 例えば `MyGame` の場合だと `cocos-2d-js-games/MyGame` を消すだけでよいです．
+
+### サーバーを消す
+
+`destroy_server.command` をダブルクリックすると， サーバーを消すことができます．
+コンソール上で ` default: Are you sure you want to destroy the 'default' VM? [y/N]` (本当に消しますか) と聞かれるので，`y` を押してリターンしましょう．
+
+- cocos2d-js のバージョンを上げるなど，サーバー環境をアップグレードする前に，現在の環境を後始末する
+- cocos2d-js を利用したゲーム作りをやめてしまうとき(アンインストール相当)
+
+に使います．
